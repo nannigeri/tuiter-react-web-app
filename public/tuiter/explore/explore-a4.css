@@ -1,0 +1,48 @@
+.wd-profile-picture {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+}
+
+.wd-name-font {
+    font-size: 14px;
+}
+
+.wd-search {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.wd-tuit-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-picture-font {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+}
+
+.wd-tweet-picture {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.wd-right-padding{
+    padding-right: 10px;
+}
+
+.wd-icon-font {
+    font-size: 7px;
+}
+
+.col-4.override-c{
+    padding-left:0px;
+}
+.col-8.override-c8{
+    padding-right:0px;
+}
