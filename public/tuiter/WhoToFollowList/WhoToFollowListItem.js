@@ -13,7 +13,7 @@ const WhoToFollowListItem = (who) => {
                             </div>
                         </div>
                         <div class="col-4">
-                            <button class="btn btn-primary override-color rounded-pill w-85 ">
+                            <button class="btn btn-primary override-color-tweet-b rounded-pill w-85 ">
                                 Follow
                             </button>
                         </div>

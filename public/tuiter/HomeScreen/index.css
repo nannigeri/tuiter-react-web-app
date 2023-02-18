@@ -203,8 +203,7 @@ body {
     height: 12px;
 }
 .wd-post-image {
-    height: 264px;
-    width: 504px;
+    width: 90%;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
@@ -220,7 +219,7 @@ body {
 .wd-b-pic {
     border-style: solid;
     border-width: 1px;
-    width: 504px;
+    width:90%;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     border-color: rgb(47, 51, 54);
@@ -304,4 +303,33 @@ body {
 
 .wd-max-w {
     max-width: 506px;
+}
+
+.card.override-card {
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-radius: 20px;
+}
+
+.card-body.override-border-top {
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgrey;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card-img-top.override-border {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.list-group-item.override-bg {
+    background-color: black;
+}
+
+.card-body.override-bg-body {
+    background-color: black;
 }

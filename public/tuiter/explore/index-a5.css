@@ -62,6 +62,11 @@
     border-style: none;
 }
 
+.btn-primary.override-color-tweet-b {
+    background-color: #1DA1F2;
+    border-style: none;
+}
+
 .wd-gold {
     color: darkgoldenrod;
 }
