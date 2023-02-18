@@ -7,6 +7,16 @@ const WhoToFollowList = () => {
            ${who.map(w => {return(WhoToFollowListItem(w));}).join('')}
            </ul>
              
+             
+             <div class="pt-2 ms-3 wd-font-size-desc">
+            <span class="text-secondary"> Terms of Service
+                    Privacy Policy
+                    Cookie Policy  <br>
+                     Accessibility
+                    Ads info
+                        More ...  <br>
+                    © 2023 Twitter, Inc. </span>
+            </div>
            
 `); }
 
