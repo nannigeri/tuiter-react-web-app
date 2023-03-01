@@ -25,7 +25,7 @@ const NavigationSidebar = () => {
                     </div>
                 </Link>
                 <Link to="/tuiter/explore"
-                   className={`list-group-item list-group-item-action wd-no-border-nav border-0 ${active == 'explore' ? 'active' : ''}`}>
+                   className={`list-group-item list-group-item-action wd-no-border-nav border-0 ${active == 'explore' || active == undefined ? 'active' : ''}`}>
                     <div className="row ${screen == 'Explore' ? 'fw-bold' : ''} ">
                         <div className="col-2">
                             <i className="bi bi-hash"></i>
