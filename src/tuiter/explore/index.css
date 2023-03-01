@@ -1,0 +1,135 @@
+.wd-gear-size {
+    font-size: 25px;
+}
+
+.wd-no-border {
+    border-style: none;
+}
+.wd-profile-picture {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+}
+
+.wd-name-font {
+    font-size: 14px;
+}
+
+.wd-search {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.wd-tuit-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-picture-font {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+}
+
+.wd-tweet-picture {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.wd-right-padding{
+    padding-right: 10px;
+}
+
+.wd-icon-font {
+    font-size: 7px;
+}
+
+.wd-tweet-button {
+    background-color:rgb(29, 161, 242);
+    color: white;
+    border-style: none;
+}
+
+.wd-grey {
+    background-color: rgb(248,248,248);
+}
+
+.list-group.override-border {
+    border-radius: 20px;
+}
+
+.btn-primary.override-color {
+    background-color: black;
+    border-style: none;
+}
+
+.wd-gold {
+    color: darkgoldenrod;
+}
+
+.wd-promoted-font {
+    font-size: 10px;
+}
+
+.wd-gray-promoted {
+    color: dimgrey;
+}
+
+.wd-search-gray {
+    background-color: #E1E8ED;
+    border-color: #E1E8ED;
+    color: #657786;
+}
+
+.wd-search-icon-color {
+    color:#657786;
+}
+
+.nav.override-content {
+    justify-content: space-between;
+}
+
+.nav-tabs.override-no-border {
+    border-style: none;
+}
+
+.wd-nav-font {
+    font-weight: bolder;
+    color: #657786;
+}
+
+.wd-nav-font-for-you {
+    font-weight: bolder;
+    color: black;
+}
+.wd-padding-foryou {
+    padding-left: 15px;
+}
+.wd-underline {
+    background-color: rgb(29, 161, 242);
+    height: 4px;
+    width: 65px;
+    border-radius: 3px;
+}
+
+.list-group-item.override-b {
+    border-style: none;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+
+.wd-font-size-desc {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.wd-main-explore-img-font {
+    font-size:18px;
+}

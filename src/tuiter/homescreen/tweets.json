@@ -1,0 +1,55 @@
+[{
+  "id" : 1,
+  "retweet": true,
+  "retweetedby": "Web Dev",
+  "name": "Neha Annigeri",
+  "handle": "neha_annigeri",
+  "date": "5hr",
+  "post": "Recently, I read The Poppy War series by R.F. Kuang. I rated it 5 stars.",
+  "avatar": "https://i.pinimg.com/474x/7b/8f/f3/7b8ff3d2c2f1348ab939811715dc6e9c.jpg",
+  "imagepost": "https://deadline.com/wp-content/uploads/2020/12/pjimage-7.jpg",
+  "linktitle": "User Neha's The Poppy War Series Review",
+  "linkcaption": "This user rated the series ☆☆☆☆☆. Read about her thoughts below!",
+  "link": "goodreads.com",
+  "comments": "5",
+  "retweets": "21",
+  "likes": "66",
+  "show": true
+
+},
+{
+  "id" : 2 ,
+  "retweet": false,
+  "name": "Aubrey Plaza",
+  "handle": "aubrey_plaza",
+  "date": "7hr",
+  "post": "I am acting in season 2 of White Lotus. It is currently streaming on HBO!",
+  "avatar": "https://i.pinimg.com/564x/04/21/a0/0421a014816a1130cec0d884b3fd55bf.jpg",
+  "imagepost": "https://assets-prd.ignimgs.com/2022/10/31/the-white-lotus-blogroll-1667236730365.jpg",
+  "linktitle": "Watch the Emmy nominated show White Lotus Below!",
+  " linkcaption": "White Lotus Season 2. Now Streaming on HBOMax.",
+  "link": "hbomax.com",
+  "comments": "5k",
+  "retweets": "9k",
+  "likes": "6k"
+
+},
+{
+  "id" : 3,
+"name": "Sonu the Dog",
+"handle": "sonu_the_dog",
+"date": "9hr",
+"post": "I recently won a dog competiton. Check out the details below!",
+"avatar": "https://k9nation.dog/k9nation/wp-content/uploads/2022/08/Cockapoo-Feature-Image.jpg",
+"quote": true,
+"name_q": "Dog Competiton",
+ "handle_q": "number_one_dogs",
+"propic_q": "https://www.gannett-cdn.com/presto/2020/02/09/USAT/d7298f3a-593a-4916-88e2-fc56b5728424-USP_News__Westminster_Kennel_Club_Dog_Show.JPG",
+"tweet_q": "Check out all the winners below! There are so many ugly dogs but they are well trained!",
+"time_q": "1 day",
+"comments": "5",
+"retweets": "2",
+"likes": "66"
+
+}]
+

@@ -3,7 +3,7 @@ const NavigationSidebar = (screen) => {
     <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action wd-no-border ">
                     <i class="fab fa-tumblr fa-2x wd-tuit-blue"></i><br/></a>
-                <a href="../HomeScreen/hs-index.html" class="list-group-item list-group-item-action wd-no-border ${screen == 'HomeScreen' ? 'active' : ''}">
+                <a href="../oldhs/hs-index.html" class="list-group-item list-group-item-action wd-no-border ${screen == 'HomeScreen' ? 'active' : ''}">
                     <div class = "row ${screen == 'HomeScreen' ? 'fw-bold' : ''}">
                         <div class = "col-2">
                             <i class="fas fa-home"></i>
@@ -13,7 +13,7 @@ const NavigationSidebar = (screen) => {
                         </div>
                     </div>
                 </a>
-                <a href="../explore/index-a5.html" class="list-group-item list-group-item-action wd-no-border ${screen == 'Explore' ? 'active' : ''}">
+                <a href="../oldexp/index-a5.html" class="list-group-item list-group-item-action wd-no-border ${screen == 'Explore' ? 'active' : ''}">
                     <div class = "row ${screen == 'Explore' ? 'fw-bold' : ''} " >
                         <div class ="col-2">
                             <i class = "fas fa-hashtag"></i>
@@ -43,7 +43,7 @@ const NavigationSidebar = (screen) => {
                         </div>
                     </div>
                 </a>
-                <a href="../bookmarks/index.html" class="list-group-item list-group-item-action wd-no-border">
+                <a href="../bookmarksold/index.html" class="list-group-item list-group-item-action wd-no-border">
                     <div class = "row">
                         <div class = "col-2">
                             <i class = "fas fa-bookmark"></i>
