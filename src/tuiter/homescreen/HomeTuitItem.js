@@ -95,7 +95,8 @@ const HomeTuitItem = (
           <div class = "col-3 text-secondary wd-bottom-font-size">
               <i className="bi bi-upload"></i>
           </div>
-<div className="wd-tuit-blue pt-3">Show this thread</div>
+            {tweets.show ?
+<div className="wd-tuit-blue pt-3">Show this thread</div> : '' }
 
         </div>
 
