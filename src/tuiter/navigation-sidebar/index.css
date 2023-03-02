@@ -129,3 +129,7 @@
 .wd-tuit-icon-size {
     font-size: 25px;
 }
+
+.list-group-item.active.override-color-active {
+    background-color: rgb(29, 161, 242);
+}

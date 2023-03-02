@@ -14,7 +14,7 @@ const NavigationSidebar = () => {
             <a href="#" className="list-group-item list-group-item-action border-0 ">
                     <i className="bi bi-twitter wd-tuit-blue wd-tuit-icon-size"></i><br/></a>
                 <Link to="/tuiter/home"
-                   className={`list-group-item list-group-item-action border-0 ${active == 'home' ? 'active' : ''}`}>
+                   className={`list-group-item list-group-item-action border-0 ${active == 'home' ? 'active override-color-active' : ''}`}>
                     <div className="row ${screen == 'HomeScreen' ? 'fw-bold' : ''}">
                         <div className="col-2">
                             <i className="bi bi-house"></i>
@@ -25,7 +25,7 @@ const NavigationSidebar = () => {
                     </div>
                 </Link>
                 <Link to="/tuiter/explore"
-                   className={`list-group-item list-group-item-action wd-no-border-nav border-0 ${active == 'explore' || active == undefined ? 'active' : ''}`}>
+                   className={`list-group-item list-group-item-action wd-no-border-nav border-0 ${active == 'explore' || active == undefined ? 'active override-color-active' : ''}`}>
                     <div className="row ${screen == 'Explore' ? 'fw-bold' : ''} ">
                         <div className="col-2">
                             <i className="bi bi-hash"></i>

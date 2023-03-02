@@ -37,12 +37,12 @@ const HomeTuitItem = (
 ) => {
     return (
         <li class = "list-group-item">
-   <div class = "float-end">
+   <div class = "float-end wd-dots-colors">
      •••
    </div>
             {tweets.retweet ? <div className= "ps-5 text-secondary fw-bold">
             <i className= "bi bi-repeat"></i>
-            <span className= "ps-2"> {tweets.retweetedby} Retweeted </span> </div> : ''}
+            <span className= "ps-2 wd-smaller-font"> {tweets.retweetedby} Retweeted </span> </div> : ''}
     <div class = "d-flex justify-content-start">
       <div>
         <img class = "rounded-circle wd-avatar" src = {tweets.avatar} />
@@ -76,23 +76,23 @@ const HomeTuitItem = (
 
 </div> }
 
-        <div class = "row mt-2 w-75">
-          <div class = "col-3 text-secondary">
-              <i className="bi bi-chat"></i>
+        <div class = "row mt-2 w-100">
+          <div class = "col-3 text-secondary wd-bottom-font-size">
+              <i className="bi bi-chat pe-1"></i>
             {tweets.comments}
           </div>
 
-          <div class = "col-3 text-secondary">
-              <i className="bi bi-repeat"></i>
+          <div class = "col-3 text-secondary wd-bottom-font-size">
+              <i className="bi bi-repeat pe-1"></i>
             {tweets.retweets}
           </div>
 
-          <div class = "col-3 text-secondary">
-              <i className="bi bi-heart"></i>
+          <div class = "col-3 text-secondary wd-bottom-font-size">
+              <i className="bi bi-heart pe-1"></i>
             {tweets.likes}
           </div>
 
-          <div class = "col-3 text-secondary">
+          <div class = "col-3 text-secondary wd-bottom-font-size">
               <i className="bi bi-upload"></i>
           </div>
 <div className="wd-tuit-blue pt-3">Show this thread</div>
