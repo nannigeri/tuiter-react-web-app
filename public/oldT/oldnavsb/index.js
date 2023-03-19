@@ -76,7 +76,7 @@ const NavigationSidebar = (screen) => {
                 <a href="#" class="list-group-item list-group-item-action wd-no-border" tabindex="-1">
                     <div class = "row">
                         <div class = "col-2">
-                            <span class="fa-stack wd-icon-font">
+                       <span class="fa-stack wd-icon-font">
                     <i class="fas fa-circle fa-stack-2x"></i>
                     <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse" style = "color: black;"></i>
                         </span>

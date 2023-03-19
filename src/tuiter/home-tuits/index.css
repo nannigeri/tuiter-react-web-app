@@ -169,6 +169,8 @@ body {
 .wd-avatar {
     border-radius: 50%;
     height: 48px;
+    width: 48px;
+    object-fit: cover;
 }
 
 .wd-name {
@@ -356,3 +358,10 @@ body {
     font-size: 14px;
 }
 
+.wd-red {
+    color: red;
+}
+
+.wd-nudge-right{
+    padding-left: 55px;
+}

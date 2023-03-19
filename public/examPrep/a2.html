@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A1 Prep</title>
+</head>
+<body>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+
+<p>Paragraphs put spacing between blocks of sentences. Paragraph Paragraph</p>
+<p>This is a paragraph. We often separate a long set of sentences with vertical spaces to make the text easier to read. Browsers ignore vertical white spaces and render all the text as one single set of sentences. To force the browser to add vertical spacing, wrap the paragraphs you want to separate with the paragraph tag
+</p>
+
+<h2>List Tags Example</h2>
+<h3>Ordered List Tag</h3>
+<ol>
+  <li>hi</li>
+  <li>bye</li>
+  <li>i wanna do good</li>
+  <li> yay </li>
+  <li> :) </li>
+</ol>
+
+<ul>
+  <li> hi</li>
+  <li>bye</li>
+  <li> yay</li>
+  <li> yay</li>
+</ul>
+
+<h3> html table but bad practice to use to separate webpages </h3>
+<table border="1" width = "100%">
+  <thead>
+  <tr>
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
+    <th>Heading 4</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>hi</td>
+    <td>hi</td>
+    <td>hi</td>
+  </tr>
+  <tr>
+    <td>hi</td>
+    <td>hi</td>
+    <td>hi</td>
+  </tr>
+  <tr>
+    <td>hi</td>
+    <td>hi</td>
+    <td>hi</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  <tr>
+    <td colspan ="3">Hey</td>
+    <td>100%</td>
+  </tr>
+  </tfoot>
+</table>
+
+<h2>Form Tags</h2>
+<input type = "text"
+       placeholder="hit"
+       title = "tooltip"
+       value="COMEDY"/>
+
+<p>type is the type of input; placeholder shows
+as hint as box but not there; tooltip shows hint
+when hover; value is default in box</p>
+
+<h2>Text fields</h2>
+<form id="text-fields">
+  <label for="text-fields-username">Username:</label>
+  <input id="text-fields-username" placeholder="jdoe"/><br/>
+  <label for="text-fields-password">Password:</label>
+  <input type="password" id="text-fields-password"
+         value="123@#$asd"/><br/>
+  <label for="text-fields-first-name">First name:</label>
+  <input type="text" id="text-fields-first-name"
+         title="John"/><br/>
+  <label for="text-fields-last-name">Last name:</label>
+  <input type="text" id="text-fields-last-name"
+         placeholder="Doe" value="Wonderland"/> </br>
+  <label for="text-fields-email">
+    Email:
+  </label>
+  <input type="email"
+         placeholder="jdoe@somewhere.com"
+         id="text-fields-email"/><br/>
+  <label for="text-fields-salary-start">
+    Starting salary:
+  </label>
+  <input type="number"
+         id="text-fields-salary-start"
+         placeholder="1000"
+         value="100000"/><br/>
+  <label for="text-fields-rating">
+    Rating:
+  </label>
+  <input type="range" id="text-fields-rating"
+         placeholder="Doe"
+         max="5"
+         value="4"/><br/>
+  <label for="text-fields-dob">
+    Date of birth:
+  </label>
+  <input type="date"
+         id="text-fields-dob"
+         value="2000-01-21"/><br/>
+</form>
+
+<p>labels use the for attribute and inputs use the id attribute
+to link them together </p>
+
+<h2>Text area</h2>
+<textarea cols="20"
+          rows ="25" placeholder="Bioography"
+          title="tooltip">
+  sometext
+</textarea>
+
+<p>can do it with form too</p>
+
+<form id="textarea">
+  <label>Biography:</label><br/>
+  <textarea cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+</form>
+
+<h2>Buttons</h2>
+<button type="button">Click me!</button>
+
+<h2>Dropdown</h2>
+<select>
+  <option value="VAL1">Value1</option>
+  <option value="VAL2" selected>
+    Value 2
+  </option>
+  <option value="VAL3">Value 3</option>
+</select>
+<br/>
+
+<select multiple>
+  <option value="VAL1" selected>Value 1</option>
+  <option value="VAL2">Value 2</option>
+  <option value="VAL3" selected>Value 3</option>
+</select>
+
+<h3>Select one</h3>
+<label for="select-one-genre">
+  Favorite movie genre:
+</label><br/>
+<select id="select-one-genre">
+  <option value="COMEDY">Comedy</option>
+  <option value="DRAMA">Drama</option>
+  <option selected value="SCIFI">
+    Science Fiction</option>
+  <option value="FANTASY">Fantasy</option>
+</select>
+
+<h3>Select many</h3>
+<label for="select-many-genre">
+  Favorite movie genres:
+</label><br/>
+<select id="select-many-genre" multiple>
+  <option selected value="COMEDY">Comedy</option>
+  <option value="DRAMA">Drama</option>
+  <option selected value="SCIFI">
+    Science Fiction</option>
+  <option value="FANTASY">Fantasy</option>
+</select>
+
+<h2>File upload</h2>
+<input type="file"/>
+
+<h2>Radio Buttons</h2>
+<label>Favorite movie genre:</label><br/>
+<input type="radio" value="COMEDY"
+       name="radio-genre" id="radio-comedy"/>
+<label for="radio-comedy">Comedy</label><br/>
+<input type="radio" value="DRAMA"
+       name="radio-genre" id="radio-drama"/>
+<label for="radio-drama">Drama</label><br/>
+<input type="radio" value="SCIFI"
+       name="radio-genre" id="radio-scifi" checked/>
+<label for="radio-scifi">Science Fiction</label><br/>
+<input type="radio" value="FANTASY"
+       name="radio-genre" id="radio-fantasy"/>
+<label for="radio-fantasy">Fantasy</label>
+
+<h2>Checkboxes</h2>
+<label>Favorite movie genre:</label>
+<br/>
+<input type="checkbox" value="COMEDY"
+       name="check-genre" id="chkbox-comedy" checked/>
+<label for="chkbox-comedy">Comedy</label>    <br/>
+<input type="checkbox" value="DRAMA"
+       name="check-genre" id="chkbox-drama"/>
+<label for="chkbox-drama">Drama</label>    <br/>
+<input type="checkbox" value="SCIFI"
+       name="check-genre" id="chkbox-scifi" checked/>
+<label for="chkbox-scifi">Science Fiction</label> <br/>
+<input type="checkbox" value="FANTASY"
+       name="check-genre" id="chkbox-fantasy"/>
+<label for="chkbox-fantasy">Fantasy</label>
+
+<h2>Anchor tag</h2>
+
+Please
+<a href="https://www.lipsum.com">click here</a>
+to get dummy text<br/>
+
+Checkout my <a href="other-page.html">other page</a>
+
+
+
+
+
+</body>
+</html>

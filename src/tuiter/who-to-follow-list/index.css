@@ -134,3 +134,7 @@
 .text-secondary.override-w {
     color: white;
 }
+
+.wd-whats-hap-button-size {
+    font-size: 25px;
+}

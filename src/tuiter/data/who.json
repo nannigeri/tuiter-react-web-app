@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 123,
+    "userName": "fancy the dog",
+    "handle": "fashiondog",
+    "avatarIcon": "https://img.wattpad.com/c5c602afb3945acaf93501a0f67e8dfa78182219/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f57385078692d47366947666d45413d3d2d3536313831373334322e313532356138346237316233633338313132323138393036373335332e706e67?s=fit&w=720&h=720"
+  },
+  {
+    "_id": 234,
+    "userName": "brownie",
+    "handle": "brownie_dog",
+    "avatarIcon": "https://avatarfiles.alphacoders.com/258/258854.jpg"
+  },
+  {
+    "_id": 345,
+    "userName": "goldie",
+    "handle": "goldendog",
+    "avatarIcon": "https://d2u4q3iydaupsp.cloudfront.net/MkfukoGsLhDZSCLrzCkhKi65b2QNUqTOpCUIvBWsmXHUuzp2vt7rOOCnduLK0f8ChIwbv2Xx5UrAueFXq6zsO7pW5FXbNyQ6oWhTjO6DfzMZzWXmiLQKmJ8O9XM1p3GW"
+  }
+]

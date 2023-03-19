@@ -1,0 +1,73 @@
+.wd-profile-font {
+    font-size: 20px;
+}
+
+.wd-profile-tuit {
+    font-size: 7px;
+}
+
+.wd-profile-pg-pic {
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.wd-icon-nudge {
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+}
+
+.wd-padding-right {
+    padding-right: 15px;
+}
+
+.wd-line-height {
+    line-height: 20px;
+}
+
+.wd-tuit-grey {
+    color: #657786;
+}
+
+.wd-nudge-edit {
+    position: absolute;
+    bottom: -50px;
+    left: 35px;
+
+}
+
+.wd-bio {
+    height: 80px;
+}
+
+.wd-label-nudge {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+}
+
+.wd-moving-camera {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 5px;
+    top: 5px;
+}
+
+.wd-moving-circle {
+    position: absolute;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.wd-moving-camera-button {
+    bottom: 120px;
+    left: 230px;
+}
+
+.wd-moving-x-button {
+    bottom: 120px;
+    left: 320px;
+}

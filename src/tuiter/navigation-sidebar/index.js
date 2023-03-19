@@ -75,7 +75,7 @@ const NavigationSidebar = () => {
                         </div>
                     </div>
                 </a>
-                <a href="../profile.html" className="list-group-item list-group-item-action border-0 wd-no-border-nav">
+                <a href="/tuiter/profile/" className={`list-group-item list-group-item-action border-0 ${active == 'profile' || active == 'edit-profile' ? 'active override-color-active' : ''}`}>
                     <div className="row">
                         <div className="col-2">
                             <i className="bi bi-person"></i>

@@ -1,14 +1,17 @@
 import React from "react";
-import HomeTuitItem from "./HomeTuitItem";
-import tweetsArray from "./tweets.json"
+import TuitsItem from "./tuits-item";
+import {useSelector} from "react-redux";
 
-const HomeComponent = () =>
+
+const TuitsList = () =>
 {
+    const tweetsArray = useSelector(state => state.tuits)
     return(
+
         <ul className= "list-group">
             {
                 tweetsArray.map(tweets =>
-                    <HomeTuitItem
+                    <TuitsItem
                         key = {tweets.id}
                         tweets={tweets}/>)
             }
@@ -17,4 +20,4 @@ const HomeComponent = () =>
     );
 
 };
-export default HomeComponent;
+export default TuitsList;
