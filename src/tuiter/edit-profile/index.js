@@ -66,6 +66,16 @@ const EditProfile = (
                 <img className="" src={account.bannerPicture}/>
                 <div className="position-relative ">
                     <img className="wd-profile-pg-pic wd-nudge-edit mb-2" src={account.profilePicture}/>
+
+                    <a href="#" className="position-absolute text-black text-decoration-none wd-moving-camera-button-profile-pic" >
+                        <div className="position-relative">
+                            <i className= "bi bi-circle-fill wd-moving-circle">
+                            </i>
+                            <i className="bi bi-camera wd-moving-camera">
+                            </i>
+                        </div>
+                    </a>
+
                     <a href="#" className="position-absolute text-black text-decoration-none wd-moving-camera-button">
                         <div className="position-relative">
                             <i className= "bi bi-circle-fill wd-moving-circle">
@@ -73,6 +83,7 @@ const EditProfile = (
                             <i className="bi bi-camera wd-moving-camera">
 
                             </i>
+
                         </div>
 
 
