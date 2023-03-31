@@ -45,11 +45,11 @@ const TuitsStats = (
                 {post.disliked ?
                         <div className="col-2 text-secondary wd-bottom-font-size">
                             <i onClick={()=> dispatch(updateTuitThunk({...post, dislikes: post.dislikes -1, disliked: false}))} className="bi bi-hand-thumbs-down-fill pe-1"></i>
-                            {post.likes}
+                            {post.dislikes}
                         </div> :
                         <div className="col-2 text-secondary wd-bottom-font-size">
                             <i onClick={()=> dispatch(updateTuitThunk({...post, dislikes: post.dislikes +1, disliked: true}))} className="bi bi-hand-thumbs-down pe-1"></i>
-                            {post.likes}
+                            {post.dislikes}
                         </div>
                 }
 
