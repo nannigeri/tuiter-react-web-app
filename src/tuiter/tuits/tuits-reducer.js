@@ -1,5 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
-import tuits from './tuits.json';
+
+import {deleteTuitThunk, createTuitThunk, findTuitsThunk, updateTuitThunk}
+    from "../../services/tuits-thunks.js";
+
+const initialState = {
+    tuits: [],
+    loading: false
+}
+
 
 const currentUser = {
     "userName": "neha annigeri",
@@ -20,7 +28,54 @@ const templateTuit = {
 
 const tuitsSlice = createSlice({
     name: 'tuits',
-    initialState: tuits,
+    initialState,
+    extraReducers: {
+        [findTuitsThunk.pending]:
+            (state) => {
+                state.loading = true
+                state.tuits = []
+            },
+
+        [deleteTuitThunk.fulfilled] :
+            (state, { payload }) => {
+                state.loading = false
+                state.tuits = state.tuits
+                    .filter(t => t._id !== payload)
+            },
+
+        //[createTuitThunk.fulfilled]:
+          //  (state, { payload }) => {
+            //    state.loading = false
+              //  state.tuits.push(payload)
+           // },
+
+        [createTuitThunk.fulfilled]:
+        (state, { payload }) => {
+         state.loading = false
+        state.tuits.unshift({...payload, ...templateTuit,})
+         },
+
+        [findTuitsThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                state.tuits = payload
+            },
+        [findTuitsThunk.rejected]:
+            (state, action) => {
+                state.loading = false
+                state.error = action.error
+            },
+        [updateTuitThunk.fulfilled]:
+            (state, { payload }) => {
+                state.loading = false
+                const tuitNdx = state.tuits
+                    .findIndex((t) => t._id === payload._id)
+                state.tuits[tuitNdx] = {
+                    ...state.tuits[tuitNdx],
+                    ...payload
+                }
+            }
+    },
     reducers: {
         createTuit(state, action) {
             state.unshift({
@@ -48,6 +103,7 @@ const tuitsSlice = createSlice({
             state[unlikedID].likes -= 1;
         }
     }
+
 });
 export const {tuitLiked, tuitUnliked, createTuit, deleteTuit} = tuitsSlice.actions;
 export default tuitsSlice.reducer;
